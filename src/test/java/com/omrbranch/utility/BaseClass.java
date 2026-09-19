@@ -42,5 +42,13 @@ public class BaseClass {
 		return value;
 	}
 	
+	public void closeBrowser()
+	{
+		driver.close();
+	}
 	
+	public void maximizeBrowser()
+	{
+		driver.manage().window().maximize();
+	}
 }
