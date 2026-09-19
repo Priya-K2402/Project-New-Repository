@@ -42,5 +42,19 @@ public class BaseClass {
 		return value;
 	}
 	
+	public void implicitWait()
+	{
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+	}
+	
+	public void display()
+	{
+		System.out.println("display");
+	}
+	public void getText()
+	{
+		System.out.println("Text from element");
+	}
+	
 	
 }
