@@ -56,5 +56,13 @@ public class BaseClass {
 		System.out.println("Text from element");
 	}
 	
+	public void closeBrowser()
+	{
+		driver.close();
+	}
 	
+	public void maximizeBrowser()
+	{
+		driver.manage().window().maximize();
+	}
 }

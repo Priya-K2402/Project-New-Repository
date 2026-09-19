@@ -8,3 +8,6 @@ Examples:
 |username|password|
 |shanmugapriya2593@gmail.com|Priya@2408|
 
+Scenario:
+When user enters valid username and invalid password
+Then user get Errormessage of invalid credentials
